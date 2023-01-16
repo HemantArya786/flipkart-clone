@@ -17,15 +17,29 @@
 }
 .font-size {
   font-size: 12px;
+  
 }
+
+
 /* h6 {
   color: chartreuse;
 } */
 
 .footer h6 {
-  color: rgb(163, 216, 27);
+  color: rgb(106, 107, 105);
 }
 
 .product-item-image-size {
   object-fit: contain;
+}
+
+.title_size{
+  font-size: 13px;
+  font-weight: 500;
+  
+  
+}
+
+.font_price{
+font-size: 100px;
 }

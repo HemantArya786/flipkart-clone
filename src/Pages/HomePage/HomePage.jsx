@@ -2,8 +2,14 @@ import React from "react";
 import Categories from "../../Components/Categories";
 import ImageSlider from "../../Components/ImageSlider";
 import CarouselItems from "../../Components/CarouselItems";
+import ViewCarouselBar from "../../Components/ViewCarouselBar";
 
 function HomePage() {
+
+
+  const imgUrl = "https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90"
+
+  const imgUrll ="https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90"
   return (
     <div>
       <main className="App ">
@@ -51,12 +57,42 @@ function HomePage() {
           />
         </section>
         <br />
-        <section>
+        <section className="px-1">
           <ImageSlider />
         </section>
         <br />
-        <section className=" ">
-          <CarouselItems />
+        <section className="px-1  d-flex ">
+          <div className="col-2 ">
+          <ViewCarouselBar heading="Best of Electronics" image={imgUrl}/>
+          </div>
+          
+
+          <div className="col-10">
+            <CarouselItems />
+          </div>
+        </section>
+        <br />
+        <section className="px-1  d-flex ">
+          <div className="col-2 ">
+          
+          <ViewCarouselBar heading="Beauty, Food, Toys & more" image={imgUrll}/>
+          </div>
+
+          <div className="col-10">
+            <CarouselItems />
+          </div>
+        </section>
+        <br />
+        <section className="px-1  d-flex ">
+          <div className="col-2 ">
+            <div>
+              <ViewCarouselBar heading="Best of Electronics" image={imgUrl}/>
+            </div>
+          </div>
+
+          <div className="col-10">
+            <CarouselItems />
+          </div>
         </section>
         <br />
       </main>

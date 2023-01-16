@@ -8,8 +8,8 @@ import Navbar from "./Components/Navbar/Navbar";
 function App() {
   return (
     <BrowserRouter>
-      <section className="bg-primary   ">
-        <Navbar />
+      <section className="bg-primary    ">
+        <Navbar  />
       </section>
       <Routes>
         <Route path="/" element={<HomePage />} />
