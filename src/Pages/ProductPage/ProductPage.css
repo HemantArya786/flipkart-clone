@@ -1,5 +1,13 @@
-.rating-border{
+.rating_border{
     border-radius: 13px;
     background-color: rgb(6, 190, 27);
     height: 22px;
+}
+
+.product_page_buttons_one{
+    background-color: orange;
+}
+.product_page_buttons_two{
+    background-color: orangered;
+
 }
