@@ -29,8 +29,11 @@
   color: rgb(106, 107, 105);
 }
 
-.product-item-image-size {
+.Product_image_size {
   object-fit: contain;
+  height:auto;
+  width: 100%;
+  height: 200px;
 }
 
 .title_size{

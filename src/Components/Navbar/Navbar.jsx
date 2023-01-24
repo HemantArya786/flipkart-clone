@@ -5,6 +5,7 @@ import { BiSearch } from "react-icons/bi";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import "./Navbar.css";
+import LoginPage from "../../Pages/Login/LoginPage";
 
 function Navbar() {
   const logoUrl =
@@ -32,26 +33,27 @@ function Navbar() {
       <section className="mx-3 d-flex align-items-center">
         <section className="d-flex">
           <div>
-            <input className="input_serach border-0  shadow " placeholder="    Search for products, brands and more" />
+            <input
+              className="input_serach border-0  shadow "
+              placeholder="    Search for products, brands and more"
+            />
           </div>
           <div className=" p-1 search-icon px-3">
-           <BiSearch  className="icon_size"/>
+            <BiSearch className="icon_size" />
           </div>
         </section>
         <section className="  ms-5 text-white d-flex gap-5 pt-2 ">
-          <h6>
-       
+          <div ata-toggle="modal" data-target="#myModal">
+            <h6>
               login <RiArrowDropDownLine />
-           
-          </h6>
-          <h6>
-            became a seller
-          </h6>
-          <h6  className="d-flex align-items-center gap-1">
-              More <RiArrowDropDownLine />
+            </h6>
+          </div>
+          <h6>became a seller</h6>
+          <h6 className="d-flex align-items-center gap-1">
+            More <RiArrowDropDownLine />
           </h6>
           <h6 className="d-flex align-items-center gap-2">
-              <AiOutlineShoppingCart /> Cart
+            <AiOutlineShoppingCart /> Cart
           </h6>
         </section>
       </section>

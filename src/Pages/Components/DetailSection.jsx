@@ -5,7 +5,7 @@ import PriceAndRating from "./PriceAndRating";
 
 function DetailSection({ offers }) {
   return (
-    <main className=" border  ps-4 d-flex flex-column gap-3 pt-4">
+    <main className="   ps-4 d-flex flex-column gap-3 pt-4">
       <div>
         <h6>
           HP 315 Multi-function Color Inkjet Printer (Color Page Cost: 20 Paise
@@ -16,7 +16,7 @@ function DetailSection({ offers }) {
         <PriceAndRating />
       </section>
 
-      <section className="border font-size">
+      <section className=" font-size">
         <div className="">
           <p>
             <b>Available offers</b>
@@ -34,6 +34,7 @@ function DetailSection({ offers }) {
           </Link>
         </div>
       </section>
+
       <div>
         <p className="font-size">
           The HP 315 multifunction colour printer is an all-in-one printer that
